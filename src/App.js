@@ -1,7 +1,7 @@
 import Topbar from './components/topbar/topbar';
-import Sidebar from './components/topbar/sidebar/sidebar';
-import Feed from './components/topbar/feed/feed';
-import Rightbar from './components/topbar/rightbar/rightbar';
+import Sidebar from './components/sidebar/sidebar';
+import Feed from './components/feed/feed';
+import Rightbar from './components/rightbar/rightbar';
 
 export default function Home() {
   return (
