@@ -10,7 +10,7 @@ const Topbar = () => {
              <div className="topbarcenter">
                  <Search className="searchicon"/>
                  <input type='text' placeholder='Search For Friends, Posts or Videos'
-                 className="searchinput"/>
+                 className="searchi"/>
              </div>
              <div className="topbarright">
                 <div className="topbarlinks">

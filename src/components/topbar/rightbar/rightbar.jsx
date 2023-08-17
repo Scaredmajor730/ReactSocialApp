@@ -1,8 +1,8 @@
-import React from 'react';
+import './rightbar.css';
 
 const Rightbar = () => {
     return (
-        <div>
+        <div className='rightbar'>
             Rightbar
         </div>
     );
