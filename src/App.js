@@ -1,18 +1,9 @@
-import Topbar from './components/topbar/topbar';
-import Sidebar from './components/sidebar/sidebar';
-import Feed from './components/feed/feed';
-import Rightbar from './components/rightbar/rightbar';
+import Profile from './components/profile/profile';
+import Home from './pages/home/Home';
 
-export default function Home() {
+export default function App() {
   return (
-    <>
-     <Topbar/>
-     <div className='homeContainer'>
-     <Sidebar/>
-     <Feed/> 
-     <Rightbar/>
-      </div>
-    </>
+    <Profile/>
   );
 }
 
